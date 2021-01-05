@@ -140,7 +140,7 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+    return //
 }
   
   
@@ -156,10 +156,11 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
-  }
+function miles(km){
+  return km * 0.6213712;
+}
 
+miles(10);
 
 
 //Task 5b - Feet to CM
@@ -170,9 +171,9 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
-  }
+function feet(cm){
+  return cm * 0.0328084;
+}
  
 
 
