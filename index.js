@@ -50,8 +50,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
+let string =  '1999';
+console.log(parseInt(string));
 
 
 /*
@@ -63,9 +63,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b) {
+  return a * b;
   }
+
+console.log( multiply(3, 6) );
 
 
 
