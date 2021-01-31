@@ -139,8 +139,17 @@ Use the game function below to do the following:
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
 
-function game(user, computer){
-    return //
+let randomChoice = Math.random();
+function game(randomChoice, userChoice){
+    if (randomChoice < userChoice){
+      return 'you win!'
+    }
+    else if (randomChoice > userChoice){
+      return `you lose!`
+    }
+    else if (randomChoice === userChoice){
+      return `it's a tie`
+    }
 }
   
   
@@ -157,10 +166,8 @@ Using the miles function below do the following:
 */
 
 function miles(km){
-  return km * 0.6213712;
+  return km * 0.621371;
 }
-
-miles(10);
 
 
 //Task 5b - Feet to CM
@@ -172,7 +179,7 @@ Using the feet function below do the following:
 */
 
 function feet(cm){
-  return cm * 0.0328084;
+  return cm / 30.48;
 }
  
 
@@ -189,7 +196,7 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(number){
     for (i = 99; i > 0; i--){
-      return `${number} bottles of soda on the wall, ${number} bottles of soda, take one down pass it around ${numberLeft} bottles of soda on the wall`;
+      return `${this.number} bottles of soda on the wall, ${this.number} bottles of soda, take one down pass it around ${this.numberLeft} bottles of soda on the wall`;
     }
   }
 
