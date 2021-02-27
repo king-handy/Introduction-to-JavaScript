@@ -50,7 +50,7 @@ After you have completed the requirements, try any of the following challenges. 
 https://github.com/king-handy/Introduction-to-JavaScript.git
 ## Submission format
 
-Follow these steps for completing your project.
+Follow these steps for completing your project. 
 
 Please see Canvas for submission instructions specific to your cohort
 
