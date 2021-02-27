@@ -26,7 +26,7 @@ Exercises are outlined in the `index.js` file, please read the instructions care
 
 ### Task 1: Set up Project
 
-Using VSCode and Command Line:
+Using VSCode and Command Line:https://github.com/king-handy/Introduction-to-JavaScript.githttps://github.com/king-handy/Introduction-to-JavaScript.git
 
 
 1. Fork the repo
@@ -38,7 +38,7 @@ Using VSCode and Command Line:
 
 ### Task 2: MVP
 
-Find the `index.js` file and complete the tasks as written. 
+Find the `index.js` file and complete the tasks as written. https://github.com/king-handy/Introduction-to-JavaScript.git
 
 As you work on your code you should make use of `console.log` to check your progress and debug.
 
@@ -47,7 +47,7 @@ As you work on your code you should make use of `console.log` to check your prog
 After you have completed the requirements, try any of the following challenges. As always, note that these may require additional research beyond what you learned in this module.
 
 - [ ] See tasks labelled stretch. Please ensure you've completed MVP before you attempt the stretch goals. Note that you may need to look forward to tomorrow's training kit in order to complete the task. 
-
+https://github.com/king-handy/Introduction-to-JavaScript.git
 ## Submission format
 
 Follow these steps for completing your project.
@@ -58,3 +58,4 @@ Please see Canvas for submission instructions specific to your cohort
 
 🧮 [Polya's 4 Step Approach to Problem Solving](http://web.mnstate.edu/peil/M110/Worksheet/PolyaProblemSolve.pdf)
 
+https://github.com/king-handy/Introduction-to-JavaScript.git
