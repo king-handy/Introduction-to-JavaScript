@@ -51,21 +51,21 @@ Do the following:
    HINT: look up the Number method
 */
 
-let string1 = '1999';
-let string2 = parseInt(string1);
-console.log(string2);
+// let string1 = '1999';
+// let string2 = parseInt(string1);
+// console.log(string2);
 
 /*
 Task 1d - Multiply
  
-Do the following:   
+Do the following:
    1. Invoke the multiply function below and pass it two numbers
    2. Receive the numbers in the parameters: a and b
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+    return a * b;
   }
 
 
@@ -80,8 +80,8 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(age){
+    return age * 7;
 }
 
 
