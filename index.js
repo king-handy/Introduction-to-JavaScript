@@ -113,8 +113,25 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog(weight, age){
+    if (age >= 1 && weight < 6){
+      return weight * 0.05;
+    }
+    else if (age >= 1 && weight > 5 && weight < 11){
+      return weight * 0.04;
+    }
+    else if (age >= 1 && weight > 15){
+      return weight * 0.02;
+    }
+    else if (age < 4/12 && age > 2/12){
+      return weight * 0.1;
+    }
+    else if (age > 4 && age < 7/12){
+      return weight * 0.05;
+    }
+    else if (age > 7/12 && age < 1){
+      return weight * 0.04;
+    }
   }
 
 
@@ -139,9 +156,17 @@ Use the game function below to do the following:
   
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
-
+let computer = Math.round(Math.random());
 function game(user, computer){
-    /*add your code here*/
+    if (user > computer){
+      return `you win!`;
+    }
+    else if (user < computer){
+      return `you lose!`;
+    }
+    else {
+      return `it's a tie`;
+    }
 }
   
   
@@ -157,8 +182,8 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km){
+    return km * 0.621371;
   }
 
 
