@@ -120,16 +120,19 @@ function hungryDog(weight, age){
     else if (age >= 1 && weight > 5 && weight < 11){
       return weight * 0.04;
     }
-    else if (age >= 1 && weight > 15){
-      return weight * 0.02;
+    else if (age >= 1 && weight > 10 && weight <= 15){
+      return weight * 0.03;
     }
-    else if (age < 4/12 && age > 2/12){
+    else if (age >= 1 && weight > 15){
+      return weight* 0.02;
+    }
+    else if (age >= 2/12 && age < 4/12){
       return weight * 0.1;
     }
-    else if (age > 4 && age < 7/12){
+    else if (age >= 4/12 && age < 7/12){
       return weight * 0.05;
     }
-    else if (age > 7/12 && age < 1){
+    else if (age >= 7/12 && age < 1){
       return weight * 0.04;
     }
   }
@@ -156,7 +159,7 @@ Use the game function below to do the following:
   
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
-let computer = Math.random();
+let computer = 3 * Math.random();
 function game(user, computer){
     if (user > computer){
       return `you win!`;
